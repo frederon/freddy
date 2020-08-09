@@ -1,0 +1,77 @@
+<DOCTYPE! html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Freddy - Cek Gelonggongan</title>
+</head>
+
+<body style="background-color:#ffff80;">
+    <div class="nav" id="navbar">
+        <img class="logo"src="https://i.ibb.co/DDxR1ZC/fred.png" alt="FREDDY">
+        <div class="button"><a href ="index.html"><b> Home</b> </a></div>
+        <div class="button"><a href ="#AboutUs"> <b>About us</b> </a></div>
+        <div class="dropdown">
+            <div class="dropbtn"><a><b> Services </b> </a></div>
+            <div class="dropdown-content">
+                <a href="#kesegaran.html">Uji kesegaran</a>
+                <a href="#keamanan.html">Uji keamanan</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    <div class="soalcek">
+	    <form>
+        <h1>Cek Daging Sapi Gelonggongan</h1>
+        <p class="formsoal">1. Apakah daging sapi anda berwarna pucat?</p><br>
+          <img width="500" src="skala warna daging.jpg" alt="Skala warna daging sapi menurut SNI"/>
+          <p>Gambar : Skala warna daging sapi menurut SNI</p>
+          <input type="radio" id="dagingpucat1" name="kepucatan" value="ya1">
+          <label for="dagingpucat1" class="formjawab">Ya</label>
+          <input type="radio" id="daingpucat2" name="kepucatan" value="tidak1">
+          <label for="dagingpucat2" class="formjawab">Tidak</label>
+          <input type="radio" id="dagingpucat3" name="kepucatan" value="lewati1">
+          <label for="dagingpucat3" class="formjawab">Lewati</label>
+
+		    <p class="formsoal">2. Apakah daging yang anda beli bertekstur lembek?</p>
+          <input type="radio" id="daginglembek1" name="tekstur" value="ya2">
+          <label for="daginglembek1" class="formjawab">Ya</label>
+          <input type="radio" id="daginglembek2" name="tekstur" value="tidak2">
+          <label for="daginglembek2" class="formjawab">Tidak</label>
+          <input type="radio" id="daginglembek3" name="tekstur" value="lewati2">
+          <label for="daginglembek3" class="formjawab">Lewati</label>
+          
+        <p class="formsoal">3. Apakah daging anda mengeluarkan air ketika ditekan?</p>
+          <input type="radio" id="berair1" name="berair" value="ya3">
+          <label for="berair1" class="formjawab">Ya</label>
+          <input type="radio" id="berair2" name="berair" value="tidak3">
+          <label for="bberair2" class="formjawab">Tidak</label>
+          <input type="radio" id="berair3" name="berair" value="lewati3">
+          <label for="berair3" class="formjawab">Lewati</label>
+        
+        <p class="formsoal">4. Apakah daging sapi yang Anda beli harganya diluar kisaran Rp110.000,00 - Rp120.000,00/kg?</p>
+          <input type="radio" id="harga-daging1" name="harga" value="ya4">
+          <label for="harga-daging1" class="formjawab">Ya</label>
+          <input type="radio" id="harga-daging2" name="harga" value="tidak4">
+          <label for="harga-daging2" class="formjawab">Tidak</label>
+          <input type="radio" id="harga-daging4" name="harga" value="lewati4">
+          <label for="harga-daging4" class="formjawab">Lewati</label>
+      </form> 
+  </div>
+  </div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
