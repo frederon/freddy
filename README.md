@@ -15,10 +15,10 @@ Nama Kelompok: FREDDY
 
 UJI KESEGARAN BAHAN PANGAN
 <br>
-Cara menggunakan website FREDDY untuk menguji kesegaran bahan pangan adalah dengan memilih bahan pangan apa yang ingin diuji tingkat kesegarannya. Kemudian isi semua pertanyaan yang ada pada lembar uji sesuai dengan kondisi bahan pangan yang dimiliki. Semakin banyak pengguna memilih opsi 'lewati'/'tidak tahu' pada pertanyaan maka hasil pengujian menjadi semakin tidak akurat.
+Cara menggunakan website FREDDY untuk menguji kesegaran bahan pangan adalah dengan memilih bahan pangan apa yang ingin diuji tingkat kesegarannya. Kemudian isi semua pertanyaan yang ada pada lembar uji sesuai dengan kondisi bahan pangan yang dimiliki. Semakin banyak pengguna memilih opsi 'lewati'/'tidak tahu' pada pertanyaan maka hasil pengujian menjadi semakin tidak akurat. Hasil pengujian adalah berupa persentase kesegaran dari bahan pangan tersebut.
 
 UJI KEAMANAN BAHAN PANGAN
 <br>
-Cara menggunakan website FREDDY untuk menguji keamanan bahan pangan adalah dengan memilih isu apa yang dikhawatirkan terjadi pada bahan pangan pengguna. Kemudian isi semua pertanyaan yang ada pada lembar uji sesuai dengan kondisi bahan pangan yang dimiliki. Semakin banyak pengguna memilih opsi 'lewati'/'tidak tahu' pada pertanyaan maka hasil pengujian menjadi semakin tidak akurat.
+Cara menggunakan website FREDDY untuk menguji keamanan bahan pangan adalah dengan memilih isu apa yang dikhawatirkan terjadi pada bahan pangan pengguna. Kemudian isi semua pertanyaan yang ada pada lembar uji sesuai dengan kondisi bahan pangan yang dimiliki. Semakin banyak pengguna memilih opsi 'lewati'/'tidak tahu' pada pertanyaan maka hasil pengujian menjadi semakin tidak akurat. Hasil pengujian adalah berupa ya/tidak nya bahan pangan tersebut berbahaya.
 
 
