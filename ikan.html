@@ -1,222 +1,231 @@
 <DOCTYPE! html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="style.css">
-<title>Freddy - Cek Ikan</title>
-</head>
+    <html>
 
-<body style="background-color:#ffff80;">
-    <div class="nav" id="navbar">
-        <img class="logo"src="https://i.ibb.co/DDxR1ZC/fred.png" alt="FREDDY">
-        <div class="button"><a href ="index.html"><b> Home</b> </a></div>
-        <div class="button"><a href ="#AboutUs"> <b>About us</b> </a></div>
-        <div class="dropdown">
-            <div class="dropbtn"><a><b> Services </b> </a></div>
-            <div class="dropdown-content">
-                <a href="kesegaran.html">Uji kesegaran</a>
-                <a href="keamanan.html">Uji keamanan</a>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Freddy - Cek Ikan</title>
+    </head>
+
+    <body style="background-color:#ffff80;">
+        <div class="nav" id="navbar">
+            <img class="logo" src="https://i.ibb.co/DDxR1ZC/fred.png" alt="FREDDY">
+            <div class="button"><a href="index.html"><b> Home</b> </a></div>
+            <div class="button"><a href="#AboutUs"> <b>About us</b> </a></div>
+            <div class="dropdown">
+                <div class="dropbtn"><a><b> Services </b> </a></div>
+                <div class="dropdown-content">
+                    <a href="kesegaran.html">Uji kesegaran</a>
+                    <a href="keamanan.html">Uji keamanan</a>
+                </div>
             </div>
         </div>
-    </div>
-	<div class="container">
-    <div class="soalcek">
-	    <form>
-            <label>
-                <h1>CEK KESEGARAN IKAN</h1> <br> <br> <br>
-                <h2>PERHATIKAN MATA DARI IKAN YANG ANDA MILIKI!</h2> <br>
-                <p class="formsoal">1. Bola Mata</p>
-                <input type="radio" id="bolamata1" name="bolamata" value="baik">
-                <label for="bolamata1" class="formjawab">Cembung</label>
-                <input type="radio" id="bolamata2" name="bolamata" value="sedang">
-                <label for="bolamata2" class="formjawab">Rata</label>
-				<input type="radio" id="bolamata3" name="bolamata" value="tidak baik">
-                <label for="bolamata3" class="formjawab">Agak Cekung</label>
-                <input type="radio" id="bolamata4" name="bolamata" value="sangat tidak baik">
-                <label for="bolamata4" class="formjawab">Cekung</label>
-                <input type="radio" id="bolamata5" name="bolamata" value="lewati">
-                <label for="bolamata5" class="formjawab">Lewati</label>
-                <br> <br>
-                <p class="formsoal">2. Kornea dan Pupil</p>
-                <input type="radio" id="korpup1" name="korpup" value="baik">
-                <label for="korpup1" class="formjawab">Jernih</label>
-                <input type="radio" id="korpup2" name="korpup" value="sedang">
-                <label for="korpup2" class="formjawab">Agak Keruh</label>
-                <input type="radio" id="korpup3" name="korpup" value="tidak baik">
-                <label for="korpup3" class="formjawab">Keruh</label>
-                <input type="radio" id="korpup4" name="korpup" value="sangat tidak baik">
-                <label for="korpup4" class="formjawab">Sangat Keruh</label>
-                <input type="radio" id="korpup5" name="korpup" value="lewati">
-                <label for="korpup5" class="formjawab">Lewati</label>
-                <br> <br>
-                <p class="formsoal">3. Mata</p>
-                <input type="radio" id="mata1" name="mata" value="baik">
-                <label for="mata1" class="formjawab">Mengkilap</label>
-                <input type="radio" id="mata2" name="mata" value="sedang">
-                <label for="mata2" class="formjawab">Agak Mengkilap</label>
-				<input type="radio" id="mata3" name="mata" value="tidak baik">
-                <label for="mata3" class="formjawab">Tidak Mengkilap</label>
-                <input type="radio" id="mata4" name="mata" value="lewati">
-                <label for="mata4" class="formjawab">Lewati</label>
-                <br> <br>
-            </label>
-            <br> <br> <br>
-            <label>
-                <h2>PERHATIKAN INSANG DARI IKAN YANG ANDA MILIKI!</h2> <br>
-                <p class="formsoal">1. Warna</p>
-                <input type="radio" id="warna1" name="warna" value="baik">
-                <label for="warna1" class="formjawab">Coklat Kemerahan / Merah Tua</label>
-                <input type="radio" id="warna2" name="warna" value="sedang">
-                <label for="warna2" class="formjawab">Merah Muda / Coklat Muda</label>
-                <input type="radio" id="warna3" name="warna" value="tidak baik">
-                <label for="warna3" class="formjawab">Abu-Abu / Coklat Keabu-abuan</label>
-                <input type="radio" id="warna4" name="warna" value="sangat tidak baik">
-                <label for="warna4" class="formjawab">Merah Muda / Coklat Muda Pucat</label>
-                <input type="radio" id="warna5" name="warna" value="lewati">
-                <label for="warna5" class="formjawab">Lewati</label>
-                <br> <br>
-                <p class="formsoal">2. Jumlah dan Warna Lendir</p>
-                <input type="radio" id="lendir1" name="lendir" value="baik">
-                <label for="lendir1" class="formjawab">Sedikit Lendir Agak Keruh</label>
-                <input type="radio" id="lendir2" name="lendir" value="sedang">
-                <label for="lendir2" class="formjawab">Lendir Putih Susu Bergumpal</label>
-				<input type="radio" id="lendir3" name="lendir" value="tidak baik">
-                <label for="lendir3" class="formjawab">Lendir Keruh</label>
-                <input type="radio" id="lendir4" name="lendir" value="lewati">
-                <label for="lendir4" class="formjawab">Lewati</label>
-                <br> <br>
-            </label>
-            <br> <br> <br>
-            <label>
-                <h2>PERHATIKAN LENDIR DARI IKAN YANG ANDA MILIKI!</h2> <br>
-                <p class="formsoal">1. Warna</p>
-                <input type="radio" id="warna1" name="warna" value="baik">
-                <label for="warna1" class="formjawab">Jernih & Transparan</label>
-                <input type="radio" id="warna2" name="warna" value="sedang">
-                <label for="warna2" class="formjawab">Agak Keruh</label>
-                <input type="radio" id="warna3" name="warna" value="tidak baik">
-                <label for="warna3" class="formjawab">Keruh</label>
-                <input type="radio" id="warna4" name="warna" value="sangat tidak baik">
-                <label for="warna4" class="formjawab">Berubah Warna</label>
-                <input type="radio" id="warna5" name="warna" value="lewati">
-                <label for="warna5" class="formjawab">Lewati</label>
-                <br> <br>
-                <p class="formsoal">2. Tekstur</p>
-                <input type="radio" id="tekstur1" name="tekstur" value="baik">
-                <label for="tekstur1" class="formjawab">Tidak Tebal & Menggumpal</label>
-                <input type="radio" id="tekstur2" name="tekstur" value="sedang">
-                <label for="tekstur2" class="formjawab">Agak Tebal</label>
-				<input type="radio" id="tekstur3" name="tekstur" value="tidak baik">
-                <label for="tekstur3" class="formjawab">Sedikit Menggumpal</label>
-                <input type="radio" id="tekstur4" name="tekstur" value="sangat tidak baik">
-                <label for="tekstur4" class="formjawab">Menggumpal</label>
-                <input type="radio" id="tekstur4" name="tekstur" value="lewati">
-                <label for="tekstur4" class="formjawab">Lewati</label>
-                <br> <br>
-                <p class="formsoal">3. Kilapan</p>
-                <input type="radio" id="kilapan1" name="kilapan" value="baik">
-                <label for="kilapan1" class="formjawab">Cerah</label>
-                <input type="radio" id="kilapan2" name="kilapan" value="sedang">
-                <label for="kilapan2" class="formjawab">Cukup Cerah</label>
-				<input type="radio" id="kilapan3" name="kilapan" value="tidak baik">
-                <label for="kilapan3" class="formjawab">Tidak Mengkilap</label>
-                <input type="radio" id="kilapan4" name="kilapan" value="lewati">
-                <label for="kilapan4" class="formjawab">Lewati</label>
-                <br> <br>
-            </label>
-            <br> <br> <br>
-            <label>
-                <h2>PERHATIKAN DAGING DARI IKAN YANG ANDA MILIKI!</h2> <br>
-                <p class="formsoal">1. Sayatan</p>
-                <input type="radio" id="sayatan1" name="sayatan" value="baik">
-                <label for="sayatan1" class="formjawab">Sangat Cemerlang</label>
-                <input type="radio" id="sayatan2" name="sayatan" value="sedang">
-                <label for="sayatan2" class="formjawab">Agak Cemerlang</label>
-                <input type="radio" id="sayatan3" name="sayatan" value="tidak baik">
-                <label for="sayatan3" class="formjawab">Pudar</label>
-                <input type="radio" id="sayatan4" name="sayatan" value="sangat tidak baik">
-                <label for="sayatan4" class="formjawab">Kusam</label>
-                <input type="radio" id="sayatan5" name="sayatan" value="lewati">
-                <label for="sayatan5" class="formjawab">Lewati</label>
-                <br> <br>
-                <p class="formsoal">2. Tekstur</p>
-                <input type="radio" id="tekstur1" name="tekstur" value="baik">
-                <label for="tekstur1" class="formjawab">Sangat Kuat</label>
-                <input type="radio" id="tekstur2" name="tekstur" value="sedang">
-                <label for="tekstur2" class="formjawab">Sedikit Kurang Kuat</label>
-                <input type="radio" id="tekstur3" name="tekstur" value="tidak baik">
-                <label for="tekstur3" class="formjawab">Kurang Kuat</label>
-                <input type="radio" id="tekstur4" name="tekstur" value="sangat tidak baik">
-                <label for="tekstur4" class="formjawab">Rusak</label>
-                <input type="radio" id="tekstur5" name="tekstur" value="lewati">
-                <label for="tekstur5" class="formjawab">Lewati</label>
-                <br> <br>
-            </label>
-            <br> <br> <br>
-            <label>
-                <h2>PERHATIKAN BAU DARI IKAN YANG ANDA MILIKI! </h2> <br>
-                <p class="formsoal">1. Bau</p>
-                <input type="radio" id="bau1" name="bau" value="baik">
-                <label for="bau1" class="formjawab">Sangat Segar</label>
-                <input type="radio" id="bau2" name="bau" value="sedang">
-                <label for="bau2" class="formjawab">Netral</label>
-                <input type="radio" id="bau3" name="bau" value="tidak baik">
-                <label for="bau3" class="formjawab">Bau Asam</label>
-                <input type="radio" id="bau4" name="bau" value="sangat tidak baik">
-                <label for="bau4" class="formjawab">Bau Busuk</label>
-                <input type="radio" id="bau5" name="bau" value="lewati">
-                <label for="bau5" class="formjawab">Lewati</label>
-                <br> <br>
-            </label>
-            <br> <br> <br>
-            <label>
-                <h2>PERHATIKAN DAGING DARI IKAN YANG ANDA MILIKI!</h2> <br>
-                <p class="formsoal">1. Kepadatan</p>
-                <input type="radio" id="kepadatan1" name="kepadatan" value="baik">
-                <label for="kepadatan1" class="formjawab">Padat + Kompak</label>
-                <input type="radio" id="kepadatan2" name="kepadatan" value="sedang">
-                <label for="kepadatan2" class="formjawab">Agak Lunak</label>
-                <input type="radio" id="kepadatan3" name="kepadatan" value="tidak baik">
-                <label for="kepadatan3" class="formjawab">Lunak (Bekas jari terlihat dan lama hilang)</label>
-                <input type="radio" id="kepadatan4" name="kepadatan" value="sangat tidak baik">
-                <label for="kepadatan4" class="formjawab">Sangat Lunak</label>
-                <input type="radio" id="kepadatan5" name="kepadatan" value="lewati">
-                <label for="kepadatan5" class="formjawab">Lewati</label>
-                <br> <br>
-                <p class="formsoal">2. Elastisitas</p>
-                <input type="radio" id="elastisitas1" name="elastisitas" value="baik">
-                <label for="elastisitas1" class="formjawab">Sangat Elastis</label>
-                <input type="radio" id="elastisitas2" name="elastisitas" value="sedang">
-                <label for="elastisitas2" class="formjawab">Agak Elastis</label>
-                <input type="radio" id="elastisitas3" name="elastisitas" value="tidak baik">
-                <label for="elastisitas3" class="formjawab">Kurang Elastis</label>
-                <input type="radio" id="elastisitas4" name="elastisitas" value="sangat tidak baik">
-                <label for="elastisitas4" class="formjawab">Tidak Elastis (Bekas jari yang menyentuh daging tidak hilang)</label>
-                <input type="radio" id="elastisitas5" name="elastisitas" value="lewati">
-                <label for="elastisitas5" class="formjawab">Lewati</label>
-                <br> <br>
-                                        <input type="submit" value="Submit">
-                                    </3br>
-                                </form> 
-                            </div>
-                            </div>
-                            <div class="bottom">
-                                <p>FREDDY (Freshness Detector) <br> by Kelompok 30 Milestones SPARTA 2020</p>
-                            </div>
-<script>
-window.onscroll = function() {myFunction()};
+        <div class="container">
+            <div class="soalcek">
+                <form class="form__dagingikan">
+                    <label>
+                        <h1>CEK KESEGARAN IKAN</h1> <br> <br> <br>
+                        <h2>PERHATIKAN MATA DARI IKAN YANG ANDA MILIKI!</h2> <br>
+                        <p class="formsoal">1. Bola Mata</p>
+                        <input type="radio" id="bolamata1" name="bolamata" value="3">
+                        <label for="bolamata1" class="formjawab">Cembung</label>
+                        <input type="radio" id="bolamata2" name="bolamata" value="2.11">
+                        <label for="bolamata2" class="formjawab">Rata</label>
+                        <input type="radio" id="bolamata3" name="bolamata" value="1.22">
+                        <label for="bolamata3" class="formjawab">Agak Cekung</label>
+                        <input type="radio" id="bolamata4" name="bolamata" value="0.33">
+                        <label for="bolamata4" class="formjawab">Cekung</label>
+                        <input type="radio" id="bolamata5" name="bolamata" value="lewati">
+                        <label for="bolamata5" class="formjawab">Lewati</label>
+                        <br> <br>
+                        <p class="formsoal">2. Kornea dan Pupil</p>
+                        <input type="radio" id="korpup1" name="korpup" value="3">
+                        <label for="korpup1" class="formjawab">Jernih</label>
+                        <input type="radio" id="korpup2" name="korpup" value="2.11">
+                        <label for="korpup2" class="formjawab">Agak Keruh</label>
+                        <input type="radio" id="korpup3" name="korpup" value="1.22">
+                        <label for="korpup3" class="formjawab">Keruh</label>
+                        <input type="radio" id="korpup4" name="korpup" value="0.33">
+                        <label for="korpup4" class="formjawab">Sangat Keruh</label>
+                        <input type="radio" id="korpup5" name="korpup" value="lewati">
+                        <label for="korpup5" class="formjawab">Lewati</label>
+                        <br> <br>
+                        <p class="formsoal">3. Mata</p>
+                        <input type="radio" id="mata1" name="mata" value="3">
+                        <label for="mata1" class="formjawab">Mengkilap</label>
+                        <input type="radio" id="mata2" name="mata" value="1.665">
+                        <label for="mata2" class="formjawab">Agak Mengkilap</label>
+                        <input type="radio" id="mata3" name="mata" value="0.33">
+                        <label for="mata3" class="formjawab">Tidak Mengkilap</label>
+                        <input type="radio" id="mata4" name="mata" value="lewati">
+                        <label for="mata4" class="formjawab">Lewati</label>
+                        <br> <br>
+                    </label>
+                    <br> <br> <br>
+                    <label>
+                        <h2>PERHATIKAN INSANG DARI IKAN YANG ANDA MILIKI!</h2> <br>
+                        <p class="formsoal">1. Warna</p>
+                        <input type="radio" id="warna1" name="warna" value="4.5">
+                        <label for="warna1" class="formjawab">Coklat Kemerahan / Merah Tua</label>
+                        <input type="radio" id="warna2" name="warna" value="3.17">
+                        <label for="warna2" class="formjawab">Merah Muda / Coklat Muda</label>
+                        <input type="radio" id="warna3" name="warna" value="1.84">
+                        <label for="warna3" class="formjawab">Abu-Abu / Coklat Keabu-abuan</label>
+                        <input type="radio" id="warna4" name="warna" value="0.5">
+                        <label for="warna4" class="formjawab">Merah Muda / Coklat Muda Pucat</label>
+                        <input type="radio" id="warna5" name="warna" value="lewati">
+                        <label for="warna5" class="formjawab">Lewati</label>
+                        <br> <br>
+                        <p class="formsoal">2. Jumlah dan Warna Lendir</p>
+                        <input type="radio" id="lendir1" name="lendir" value="4.5">
+                        <label for="lendir1" class="formjawab">Cemerlang + sedikit lendir transparan</label>
+                        <input type="radio" id="lendir2" name="lendir" value="3.17">
+                        <label for="lendir2" class="formjawab">Sedikit lendir agak keruh</label>
+                        <input type="radio" id="lendir3" name="lendir" value="1.84">
+                        <label for="lendir3" class="formjawab">Lendir putih susu bergumpal</label>
+                        <input type="radio" id="lendir4" name="lendir" value="0.5">
+                        <label for="lendir4" class="formjawab">Lendir keruh</label>
+                        <input type="radio" id="lendir5" name="lendir" value="lewati">
+                        <label for="lendir5" class="formjawab">Lewati</label>
+                        <br> <br>
+                    </label>
+                    <br> <br> <br>
+                    <label>
+                        <h2>PERHATIKAN LENDIR DARI IKAN YANG ANDA MILIKI!</h2> <br>
+                        <p class="formsoal">1. Warna</p>
+                        <input type="radio" id="warna-lendir1" name="warna-lendir" value="3">
+                        <label for="warna-lendir1" class="formjawab">Jernih & Transparan</label>
+                        <input type="radio" id="warna-lendir2" name="warna-lendir" value="2.11">
+                        <label for="warna-lendir2" class="formjawab">Agak Keruh</label>
+                        <input type="radio" id="warna-lendir3" name="warna-lendir" value="1.22">
+                        <label for="warna-lendir3" class="formjawab">Keruh</label>
+                        <input type="radio" id="warna-lendir4" name="warna-lendir" value="0.33">
+                        <label for="warna-lendir4" class="formjawab">Berubah Warna</label>
+                        <input type="radio" id="warna-lendir5" name="warna-lendir" value="lewati">
+                        <label for="warna-lendir5" class="formjawab">Lewati</label>
+                        <br> <br>
+                        <p class="formsoal">2. Tekstur</p>
+                        <input type="radio" id="tekstur1" name="tekstur" value="3">
+                        <label for="tekstur1" class="formjawab">Tidak Tebal & Menggumpal</label>
+                        <input type="radio" id="tekstur2" name="tekstur" value="2.11">
+                        <label for="tekstur2" class="formjawab">Agak Tebal</label>
+                        <input type="radio" id="tekstur3" name="tekstur" value="1.22">
+                        <label for="tekstur3" class="formjawab">Sedikit Menggumpal</label>
+                        <input type="radio" id="tekstur4" name="tekstur" value="0.33">
+                        <label for="tekstur4" class="formjawab">Menggumpal</label>
+                        <input type="radio" id="tekstur5" name="tekstur" value="lewati">
+                        <label for="tekstur5" class="formjawab">Lewati</label>
+                        <br> <br>
+                        <p class="formsoal">3. Kilapan</p>
+                        <input type="radio" id="kilapan1" name="kilapan" value="3">
+                        <label for="kilapan1" class="formjawab">Cerah</label>
+                        <input type="radio" id="kilapan2" name="kilapan" value="1.665">
+                        <label for="kilapan2" class="formjawab">Cukup Cerah</label>
+                        <input type="radio" id="kilapan3" name="kilapan" value="0.33">
+                        <label for="kilapan3" class="formjawab">Tidak Mengkilap</label>
+                        <input type="radio" id="kilapan4" name="kilapan" value="lewati">
+                        <label for="kilapan4" class="formjawab">Lewati</label>
+                        <br> <br>
+                    </label>
+                    <br> <br> <br>
+                    <label>
+                        <h2>PERHATIKAN DAGING DARI IKAN YANG ANDA MILIKI!</h2> <br>
+                        <p class="formsoal">1. Sayatan</p>
+                        <input type="radio" id="sayatan1" name="sayatan" value="4.5">
+                        <label for="sayatan1" class="formjawab">Sangat Cemerlang</label>
+                        <input type="radio" id="sayatan2" name="sayatan" value="3.17">
+                        <label for="sayatan2" class="formjawab">Agak Cemerlang</label>
+                        <input type="radio" id="sayatan3" name="sayatan" value="1.84">
+                        <label for="sayatan3" class="formjawab">Pudar</label>
+                        <input type="radio" id="sayatan4" name="sayatan" value="0.5">
+                        <label for="sayatan4" class="formjawab">Kusam</label>
+                        <input type="radio" id="sayatan5" name="sayatan" value="lewati">
+                        <label for="sayatan5" class="formjawab">Lewati</label>
+                        <br> <br>
+                        <p class="formsoal">2. Jaringan</p>
+                        <input type="radio" id="jaringan1" name="jaringan" value="4.5">
+                        <label for="jaringan1" class="formjawab">Sangat Kuat</label>
+                        <input type="radio" id="jaringan2" name="jaringan" value="3.17">
+                        <label for="jaringan2" class="formjawab">Sedikit Kurang Kuat</label>
+                        <input type="radio" id="jaringan3" name="jaringan" value="1.84">
+                        <label for="jaringan3" class="formjawab">Kurang Kuat</label>
+                        <input type="radio" id="jaringan4" name="jaringan" value="0.5">
+                        <label for="jaringan4" class="formjawab">Rusak</label>
+                        <input type="radio" id="jaringan5" name="jaringan" value="lewati">
+                        <label for="jaringan5" class="formjawab">Lewati</label>
+                        <br> <br>
+                    </label>
+                    <br> <br> <br>
+                    <label>
+                        <h2>PERHATIKAN BAU DARI IKAN YANG ANDA MILIKI! </h2> <br>
+                        <p class="formsoal">1. Bau</p>
+                        <input type="radio" id="bau1" name="bau" value="9">
+                        <label for="bau1" class="formjawab">Sangat Segar</label>
+                        <input type="radio" id="bau2" name="bau" value="6.33">
+                        <label for="bau2" class="formjawab">Netral</label>
+                        <input type="radio" id="bau3" name="bau" value="3.66">
+                        <label for="bau3" class="formjawab">Bau Asam</label>
+                        <input type="radio" id="bau4" name="bau" value="1">
+                        <label for="bau4" class="formjawab">Bau Busuk</label>
+                        <input type="radio" id="bau5" name="bau" value="lewati">
+                        <label for="bau5" class="formjawab">Lewati</label>
+                        <br> <br>
+                    </label>
+                    <br> <br> <br>
+                    <label>
+                        <h2>PERHATIKAN DAGING DARI IKAN YANG ANDA MILIKI!</h2> <br>
+                        <p class="formsoal">1. Kepadatan</p>
+                        <input type="radio" id="kepadatan1" name="kepadatan" value="4.5">
+                        <label for="kepadatan1" class="formjawab">Padat + Kompak</label>
+                        <input type="radio" id="kepadatan2" name="kepadatan" value="3.17">
+                        <label for="kepadatan2" class="formjawab">Agak Lunak</label>
+                        <input type="radio" id="kepadatan3" name="kepadatan" value="1.84">
+                        <label for="kepadatan3" class="formjawab">Lunak (Bekas jari terlihat dan lama hilang)</label>
+                        <input type="radio" id="kepadatan4" name="kepadatan" value="0.5">
+                        <label for="kepadatan4" class="formjawab">Sangat Lunak</label>
+                        <input type="radio" id="kepadatan5" name="kepadatan" value="lewati">
+                        <label for="kepadatan5" class="formjawab">Lewati</label>
+                        <br> <br>
+                        <p class="formsoal">2. Elastisitas</p>
+                        <input type="radio" id="elastisitas1" name="elastisitas" value="4.5">
+                        <label for="elastisitas1" class="formjawab">Sangat Elastis</label>
+                        <input type="radio" id="elastisitas2" name="elastisitas" value="3.17">
+                        <label for="elastisitas2" class="formjawab">Agak Elastis</label>
+                        <input type="radio" id="elastisitas3" name="elastisitas" value="1.84">
+                        <label for="elastisitas3" class="formjawab">Kurang Elastis</label>
+                        <input type="radio" id="elastisitas4" name="elastisitas" value="0.5">
+                        <label for="elastisitas4" class="formjawab">Tidak Elastis (Bekas jari yang menyentuh daging
+                            tidak hilang)</label>
+                        <input type="radio" id="elastisitas5" name="elastisitas" value="lewati">
+                        <label for="elastisitas5" class="formjawab">Lewati</label>
+                        <br> <br>
+                        <input type="submit" value="Submit">
+                        </3br>
+                </form>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>FREDDY (Freshness Detector) <br> by Kelompok 30 Milestones SPARTA 2020</p>
+        </div>
+        <script>
+            window.onscroll = function () {
+                myFunction()
+            };
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="./script.js"></script>
+    </body>
 
-</body>
-</html>
+    </html>
