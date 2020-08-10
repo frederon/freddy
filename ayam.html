@@ -1,108 +1,116 @@
 <DOCTYPE! html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="style.css">
-<title>Freddy - Cek Daging Ayam</title>
-</head>
+    <html>
 
-<body style="background-color:#ffff80;">
-    <div class="nav" id="navbar">
-        <img class="logo"src="https://i.ibb.co/DDxR1ZC/fred.png" alt="FREDDY">
-        <div class="button"><a href ="index.html"><b> Home</b> </a></div>
-        <div class="button"><a href ="#AboutUs"> <b>About us</b> </a></div>
-        <div class="dropdown">
-            <div class="dropbtn"><a><b> Services </b> </a></div>
-            <div class="dropdown-content">
-                <a href="kesegaran.html">Uji kesegaran</a>
-                <a href="keamanan.html">Uji keamanan</a>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Freddy - Cek Daging Ayam</title>
+    </head>
+
+    <body style="background-color:#ffff80;">
+        <div class="nav" id="navbar">
+            <img class="logo" src="https://i.ibb.co/DDxR1ZC/fred.png" alt="FREDDY">
+            <div class="button"><a href="index.html"><b> Home</b> </a></div>
+            <div class="button"><a href="#AboutUs"> <b>About us</b> </a></div>
+            <div class="dropdown">
+                <div class="dropbtn"><a><b> Services </b> </a></div>
+                <div class="dropdown-content">
+                    <a href="kesegaran.html">Uji kesegaran</a>
+                    <a href="keamanan.html">Uji keamanan</a>
+                </div>
             </div>
         </div>
-    </div>
-	<div class="container">
-    <div class="soalcek">
-	    <form>
-		    <h1>Cek Kesegaran Daging Ayam</h1>
-	    	<p class="formsoal">1. Apakah daging ayam Anda memiliki kelainan?</p>
-                <input type="radio" id="kelainan1" name="kelainan" value="baik">
-                <label for="kelainan1" class="formjawab">Tidak ada</label>
-                <input type="radio" id="kelainan2" name="kelainan" value="sedang">
-                <label for="kelainan2" class="formjawab">Sedikit kelainan pada tulang dada atau paha</label>
-				<input type="radio" id="kelainan3" name="kelainan" value="tidak baik">
-                <label for="kelainan3" class="formjawab">Ada kelainan pada tulang dada dan paha</label>
-				<input type="radio" id="kelainan4" name="kelainan" value="lewati">
-                <label for="kelainan4" class="formjawab">Lewati</label>
+        <div class="container">
+            <div class="soalcek">
+                <form class="form__dagingayam">
+                    <h1>Cek Kesegaran Daging Ayam</h1>
+                    <p class="formsoal">1. Apakah daging ayam Anda memiliki kelainan?</p>
+                    <input type="radio" id="kelainan1" name="kelainan" value="baik">
+                    <label for="kelainan1" class="formjawab">Tidak ada</label>
+                    <input type="radio" id="kelainan2" name="kelainan" value="sedang">
+                    <label for="kelainan2" class="formjawab">Sedikit kelainan pada tulang dada atau paha</label>
+                    <input type="radio" id="kelainan3" name="kelainan" value="tidak baik">
+                    <label for="kelainan3" class="formjawab">Ada kelainan pada tulang dada dan paha</label>
+                    <input type="radio" id="kelainan4" name="kelainan" value="lewati">
+                    <label for="kelainan4" class="formjawab">Lewati</label>
 
-		    <p class="formsoal">2. Apakah daging ayam Anda tebal?</p>
-			    <input type="radio" id="ketebalan1" name="ketebalan" value="baik">
-                <label for="ketebalan1" class="formjawab">Tebal</label>
-                <input type="radio" id="ketebalan2" name="ketebalan" value="sedang">
-                <label for="ketebalan2" class="formjawab">Sedang</label>
-				<input type="radio" id="ketebalan3" name="ketebalan" value="tidak baik">
-                <label for="ketebalan3" class="formjawab">Tipis</label>
-				<input type="radio" id="ketebalan4" name="ketebalan" value="lewati">
-                <label for="ketebalan4" class="formjawab">Lewati</label>
+                    <p class="formsoal">2. Apakah daging ayam Anda tebal?</p>
+                    <input type="radio" id="ketebalan1" name="ketebalan" value="baik">
+                    <label for="ketebalan1" class="formjawab">Tebal</label>
+                    <input type="radio" id="ketebalan2" name="ketebalan" value="sedang">
+                    <label for="ketebalan2" class="formjawab">Sedang</label>
+                    <input type="radio" id="ketebalan3" name="ketebalan" value="tidak baik">
+                    <label for="ketebalan3" class="formjawab">Tipis</label>
+                    <input type="radio" id="ketebalan4" name="ketebalan" value="lewati">
+                    <label for="ketebalan4" class="formjawab">Lewati</label>
 
-	        <p class="formsoal">3. Apakah jumlah lemak daging ayam Anda banyak?</p>
-			    <input type="radio" id="lemak1" name="lemak" value="baik">
-                <label for="lemak1" class="formjawab">Banyak</label>
-                <input type="radio" id="lemak2" name="lemak" value="sedang">
-                <label for="lemak2" class="formjawab">Sedang</label>
-				<input type="radio" id="lemak3" name="lemak" value="tidak baik">
-                <label for="lemak3" class="formjawab">Sedikit</label>
-                <input type="radio" id="lemak4" name="lemak" value="lewati">
-                <label for="lemak4" class="formjawab">Lewati</label>
-				
-			<p class="formsoal">4. Apakah daging ayam Anda utuh?</p>
-			    <input type="radio" id="utuh1" name="utuh" value="baik">
-                <label for="utuh1" class="formjawab">Utuh</label>
-                <input type="radio" id="utuh2" name="utuh" value="sedang">
-                <label for="utuh2" class="formjawab">Tulang utuh, kulit sedikit sobek selain pada bagian dada tanpa ada <i>freeze burn</i> (bintik-bintik beku)</label>
-				<input type="radio" id="utuh3" name="utuh" value="tidak baik">
-                <label for="utuh3" class="formjawab">Tulang dada patah, ujung sayap terlepas, ada kulit yang sobek di bagian dada tanpa <i> freeze burn</i></label>
-				<input type="radio" id="utuh4" name="utuh" value="lewati">
-                <label for="utuh4" class="formjawab">Lewati</label>
+                    <p class="formsoal">3. Apakah jumlah lemak daging ayam Anda banyak?</p>
+                    <input type="radio" id="lemak1" name="lemak" value="baik">
+                    <label for="lemak1" class="formjawab">Banyak</label>
+                    <input type="radio" id="lemak2" name="lemak" value="sedang">
+                    <label for="lemak2" class="formjawab">Sedang</label>
+                    <input type="radio" id="lemak3" name="lemak" value="tidak baik">
+                    <label for="lemak3" class="formjawab">Sedikit</label>
+                    <input type="radio" id="lemak4" name="lemak" value="lewati">
+                    <label for="lemak4" class="formjawab">Lewati</label>
 
-			<p class="formsoal">5. Apakah daging ayam Anda memliki memar?</p>
-			    <input type="radio" id="memar1" name="memar" value="baik">
-                <label for="memar1" class="formjawab">Tidak ada</label>
-                <input type="radio" id="memar2" name="memar" value="sedang">
-                <label for="memar2" class="formjawab">Sedikit memar selain pada bagian dada</label>
-				<input type="radio" id="memar3" name="memar" value="tidak baik">
-                <label for="memar3" class="formjawab">Ada memar</label>
-                <input type="radio" id="memar4" name="memar" value="lewati">
-                <label for="memar4" class="formjawab">Lewati</label>
-                
-            <p class="formsoal">6. Apakah daging ayam Anda bersih?</p>
-			    <input type="radio" id="bersih1" name="bersih" value="baik">
-                <label for="bersih1" class="formjawab">Tidak ada bulu tunas</label>
-                <input type="radio" id="bersih2" name="bersih" value="sedang">
-                <label for="bersih2" class="formjawab">Ada sedikit bulu tunas selain pada bagian dada</label>
-				<input type="radio" id="bersih3" name="bersih" value="tidak baik">
-                <label for="bersih3" class="formjawab">Ada bulu tunas</label>
-                <input type="radio" id="bersih4" name="bersih" value="lewati">
-                <label for="bersih4" class="formjawab">Lewati</label>
-			<div class="submitsoal"><input type="submit" value="Submit"></div>
-        </form> 
-	</div>
-	</div>
-	<div class="bottom">
-        <p>FREDDY (Freshness Detector) <br> by Kelompok 30 Milestones SPARTA 2020</p>
-    </div>
-<script>
-window.onscroll = function() {myFunction()};
+                    <p class="formsoal">4. Apakah daging ayam Anda utuh?</p>
+                    <input type="radio" id="utuh1" name="utuh" value="baik">
+                    <label for="utuh1" class="formjawab">Utuh</label>
+                    <input type="radio" id="utuh2" name="utuh" value="sedang">
+                    <label for="utuh2" class="formjawab">Tulang utuh, kulit sedikit sobek selain pada bagian dada tanpa
+                        ada <i>freeze burn</i> (bintik-bintik beku)</label>
+                    <input type="radio" id="utuh3" name="utuh" value="tidak baik">
+                    <label for="utuh3" class="formjawab">Tulang dada patah, ujung sayap terlepas, ada kulit yang sobek
+                        di bagian dada tanpa <i> freeze burn</i></label>
+                    <input type="radio" id="utuh4" name="utuh" value="lewati">
+                    <label for="utuh4" class="formjawab">Lewati</label>
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
+                    <p class="formsoal">5. Apakah daging ayam Anda memliki memar?</p>
+                    <input type="radio" id="memar1" name="memar" value="baik">
+                    <label for="memar1" class="formjawab">Tidak ada</label>
+                    <input type="radio" id="memar2" name="memar" value="sedang">
+                    <label for="memar2" class="formjawab">Sedikit memar selain pada bagian dada</label>
+                    <input type="radio" id="memar3" name="memar" value="tidak baik">
+                    <label for="memar3" class="formjawab">Ada memar</label>
+                    <input type="radio" id="memar4" name="memar" value="lewati">
+                    <label for="memar4" class="formjawab">Lewati</label>
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
+                    <p class="formsoal">6. Apakah daging ayam Anda bersih?</p>
+                    <input type="radio" id="bersih1" name="bersih" value="baik">
+                    <label for="bersih1" class="formjawab">Tidak ada bulu tunas</label>
+                    <input type="radio" id="bersih2" name="bersih" value="sedang">
+                    <label for="bersih2" class="formjawab">Ada sedikit bulu tunas selain pada bagian dada</label>
+                    <input type="radio" id="bersih3" name="bersih" value="tidak baik">
+                    <label for="bersih3" class="formjawab">Ada bulu tunas</label>
+                    <input type="radio" id="bersih4" name="bersih" value="lewati">
+                    <label for="bersih4" class="formjawab">Lewati</label>
+                    <div class="submitsoal"><input type="submit" value="Submit"></div>
+                </form>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>FREDDY (Freshness Detector) <br> by Kelompok 30 Milestones SPARTA 2020</p>
+        </div>
+        <script>
+            window.onscroll = function () {
+                myFunction()
+            };
 
-</body>
-</html>
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="./script.js"></script>
+    </body>
+
+    </html>

@@ -290,8 +290,25 @@ input[type="submit"]:hover {
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding-bottom: 50px;
+}
+
+.result span {
+    display: block;
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.result h2.red {
+    color: red;
+}
+
+.result h2.green {
+    color: green;
 }
 
 @media screen and (max-width: 600px) {
